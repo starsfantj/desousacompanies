@@ -23,6 +23,9 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h1, h4 {
+  margin-top: 0px;
+}
 
 // Nav Styles
 .navbar, .home-callout, .home-callout-video {
@@ -60,6 +63,7 @@ body {
 }
 
 .home-callout-video {
+  color: white;
   padding-top: 20px;
   padding-bottom: 20px;
 }
