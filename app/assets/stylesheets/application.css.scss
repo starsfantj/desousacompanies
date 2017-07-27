@@ -20,12 +20,12 @@
 @import "font-awesome";
 
 body {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
 // Nav Styles
-.navbar {
+.navbar, .home-callout, .home-callout-video {
   border: none;
   background: #56ab2f; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
@@ -41,3 +41,25 @@ body {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00a510;
+  }
+}
+
+// Homepage styles
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.home-callout-video {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
