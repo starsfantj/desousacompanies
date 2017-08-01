@@ -23,8 +23,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h4 {
+h1, h3, .nomarg {
   margin-top: 0px;
+}
+
+h4 {
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+
+.img {
+  width: 75%;
+  margin: auto;
 }
 
 // Nav Styles
