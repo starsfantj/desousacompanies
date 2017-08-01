@@ -28,12 +28,15 @@ h1, h3, .nomarg {
 }
 
 h4 {
-  margin-top: 10%;
+  margin-top: 8%;
   margin-bottom: 0px;
 }
 
+h5 {
+  margin-top: 0px;
+}
+
 .img {
-  width: 75%;
   margin: auto;
 }
 
@@ -76,4 +79,12 @@ h4 {
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.well > h3 {
+  color: black;
+}
+
+.schematic {
+  width: 100%;
 }
